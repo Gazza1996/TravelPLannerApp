@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Travel Planner</ion-title>
+    <ion-buttons end>
+        <button ion-button icon-only (click)="addSong()">
+            <ion-icon name="add"></ion-icon>
+        </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h2>Travel Planner</h2>
+    <ion-list>
+        <ion-item *ngFor="let trip of trips | async">
+            {{trip.number}}
+            {{trip.acc}}
+        </ion-item>
+    </ion-list>
+</ion-content>
