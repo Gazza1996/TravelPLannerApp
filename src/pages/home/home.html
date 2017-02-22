@@ -2,7 +2,7 @@
   <ion-navbar>
     <ion-title>Travel Planner</ion-title>
     <ion-buttons end>
-        <button ion-button icon-only (click)="addSong()">
+        <button ion-button icon-only (click)="addTrip()">
             <ion-icon name="add"></ion-icon>
         </button>
     </ion-buttons>
@@ -13,8 +13,12 @@
     <h2>Travel Planner</h2>
     <ion-list>
         <ion-item *ngFor="let trip of trips | async">
-            {{trip.number}}
-            {{trip.acc}}
+            <p>Number: {{trip.Number}}</p>
+            <p>Name: {{trip.name}}</p>
+            <p>Hotel Name: {{trip.hotelName}}</p>
+            <p>Hotel Address: {{trip.hotelAdd}}</p>
+            <p>Transfer: {{trip.transfer}}</p>
+            <p>Activities: {{trip.activities}}</p>
         </ion-item>
     </ion-list>
 </ion-content>
