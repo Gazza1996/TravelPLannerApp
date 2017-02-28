@@ -21282,3 +21282,20 @@ ion-title {
   height: 100%;
   text-align: center;
 }
+
+ion-item.list1 {
+  background-color: transparent;
+  color: red;
+}
+
+/*ion-list.list1{
+      background-color: rgba(0, 0, 0, 0);
+}*/
+.home {
+  background-image: url(img/background1.jpg);
+  color: red;
+}
+
+.toolbar-background {
+  background-color: skyblue;
+}

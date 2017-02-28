@@ -1,7 +1,4 @@
-page-home {
-
-}
-
+// centers title of application
 ion-title {
   position: absolute;
   top: 0;
@@ -12,6 +9,21 @@ ion-title {
   text-align: center;
 }
 
+ion-item.list1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+}
+/*ion-list.list1{
+      background-color: rgba(0, 0, 0, 0);
+}*/
+
+// background image of home.html
+.home {
+  background-image: url(img/background1.jpg);
+  color: red;
+}
+
+// sets colour of toolbar-background
 .toolbar-background {
   background-color: skyblue;
 }

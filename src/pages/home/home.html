@@ -2,29 +2,38 @@
   <ion-navbar>
     <ion-title>Travel Planner</ion-title>
     <ion-buttons end>
+        <!-- Button to add a trip. Plane icon is being used-->
         <button ion-button icon-only (click)="addTrip()">
-            <ion-icon name="add"></ion-icon>
+            <ion-icon name="plane"></ion-icon>
         </button>
     </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-    <h2>Travel Planner</h2>
-    <ion-list>
+<!-- Main part of the app that will display all my trips -->
+<!-- async method is used to call from database -->
+<ion-content padding class="home">
+    <h2>My Trips</h2>
+    <ion-list class="list">
+        <!-- slider used in order to use edit and delete functions -->
         <ion-item-sliding *ngFor="let trip of trips | async">
-            <ion-item>
+            <ion-item class="list1">
+                <!-- All parameters set in firebase displayed out after a new trip is added -->
                 <p>Number: {{trip.Number}}</p>
                 <p>Name: {{trip.name}}</p>
                 <p>Hotel Name: {{trip.hotelName}}</p>
                 <p>Hotel Address: {{trip.hotelAdd}}</p>
                 <p>Transfer: {{trip.transfer}}</p>
                 <p>Activities: {{trip.activities}}</p>
+                <p>Passengers: {{trip.passengers}}</p>
             </ion-item>
+            <!-- edit and delete options appear on the right when trip is swiped left -->
             <ion-item-options side="right">
+                <!-- editTrip created in home.ts and trip object is called from firebase -->
                 <button ion-button color="balanced" (click)="editTrip(trip)">
-                    <ion-icon name="md-create"> Edit</ion-icon>
+                    <ion-icon name="md-clipboard"> Edit</ion-icon>
                 </button>
+                <!-- look back over trip.$key -->
                 <button ion-button color="danger" (click)="deleteTrip(trip.$key)">
                     <ion-icon name="md-trash"> Delete</ion-icon>
                 </button>
