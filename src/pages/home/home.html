@@ -14,10 +14,10 @@
 <!-- async method is used to call from database -->
 <ion-content padding class="home">
     <h2>My Trips</h2>
-    <ion-list class="list">
+    <ion-list class="list1">
         <!-- slider used in order to use edit and delete functions -->
-        <ion-item-sliding *ngFor="let trip of trips | async">
-            <ion-item class="list1">
+        <ion-item-sliding *ngFor="let trip of trips | async" >
+            <ion-item class="list">
                 <!-- All parameters set in firebase displayed out after a new trip is added -->
                 <p>Number: {{trip.Number}}</p>
                 <p>Name: {{trip.name}}</p>
