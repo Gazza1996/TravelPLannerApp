@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 import { NavController, AlertController} from 'ionic-angular';
 // import of angular fire and firebase from angularfire2
-import {AngularFire, FirebaseListObservable} from 'angularfire2';
+import { AngularFire, FirebaseListObservable} from 'angularfire2';
 
 @Component({
   selector: 'page-home',
