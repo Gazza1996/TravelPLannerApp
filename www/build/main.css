@@ -24519,8 +24519,7 @@ ion-title {
   position: absolute;
   left: 0%;
   top: 1%;
-  background-image: url(img/background1.jpg);
-  color: red;
+  background-image: url(img/background.jpg);
 }
 
 .toolbar-background {
