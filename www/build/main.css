@@ -24508,20 +24508,21 @@ ion-title {
   text-align: center;
 }
 
-.list1 {
+/*.list1{
   position: absolute;
-  left: 1.5%;
-  top: 10%;
-  background-color: transparent;
+      left: 1.5%;
+      top: 10%;
+      background-color: rgba(0, 0, 0, 0);
 }
 
+// background image of home.html
 .home {
   position: absolute;
   left: 0%;
   top: 1%;
   background-image: url(img/background.jpg);
 }
-
+*/
 .toolbar-background {
   background-color: skyblue;
 }
