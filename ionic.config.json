@@ -1,6 +1,6 @@
 {
-  "name": "tabSample",
-  "app_id": "",
+  "name": "Planner App",
+  "app_id": "3db4f44d",
   "v2": true,
   "typescript": true
 }
