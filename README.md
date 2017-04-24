@@ -2,13 +2,18 @@
 
 ### Author - Gary Mannion
 
-## Project Overview
-This is my 3rd Year final project for software development. For my project I have decided to make a web application for a travel planning guide that will allow a user to enter details about their travel destination such as flights, hotel, transfers and also an itinerary for different attractions that they wish to visit on their trip. It is going to be developed using the ionic framework and the firebase database system.
+# Index
+>[Home](https://github.com/Gazza1996/TravelPLannerApp/wiki)
 
-## Installation Guide
+>[Introduction](https://github.com/Gazza1996/TravelPLannerApp/wiki/Introduction)
 
-## Design Decisions
+>[Design-Methodology](https://github.com/Gazza1996/TravelPLannerApp/wiki/Design-Methodolgy)  
 
-## Issues
+>[Improvements](https://github.com/Gazza1996/TravelPLannerApp/wiki/Improvements)  
 
-## Conclusion
+>[System Requirements](https://github.com/Gazza1996/TravelPLannerApp/wiki/System-Requirements)  
+
+>[Technology used](https://github.com/Gazza1996/TravelPLannerApp/wiki/Technology-used)  
+
+>[Conclusion](https://github.com/Gazza1996/TravelPLannerApp/wiki/Conclusion)  
+
