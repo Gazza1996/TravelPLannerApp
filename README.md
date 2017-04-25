@@ -1,4 +1,7 @@
-# TravelPLannerApp
+# TravelPLannerApp  
+
+<img width="150" src="https://lh3.googleusercontent.com/Lda6yJ0j8GbIsJn5A53if6x1JXGkZkgyh-rzOZdD9h_iM4vXeMMUTJWD_kQ62ni0C2A=w300">  
+
 
 ###### Author - Gary Mannion - G00319609
 ###### Mentor - Martin Kenirons
